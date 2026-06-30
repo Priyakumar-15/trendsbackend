@@ -3,11 +3,6 @@ import fs from"fs";
 
 
     // Configuration
-    cloudinary.config({ 
-        cloud_name: 'dww6fvvtx', 
-        api_key: '769411368192224', 
-        api_secret: 'qcp_5GC2DbonaNLJzzVC6ZKiH3s' // Click 'View API Keys' above to copy your API secret
-    });
     
     const uploadOnCloudinary = async (localFilePath) => {
     try {
